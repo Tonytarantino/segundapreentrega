@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+header {
+  background-color: #1b4f72;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  padding: 30px;
+  margin: 0px;
+  text-align: center;
+}
+
+.linkMenu {
+  color: white;
+  text-decoration: none;
+  margin: 50px;
+}
+
+.linkMenu:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  color: orange;
+}
+
+#portada {
+  text-align: center;
+  background-image: url(../imagenes/microbit.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+
+}
+
+.portadaInfo {
+  margin-bottom: 200px;
+}
+
+#tituloPortada {
+  /*   margin: 50px; */
+  font-size: 100px;
+  margin-bottom: 50px;
+  color: #17202a;
+}
+
+#subtituloPortada {
+  font-size: 25px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.card {
+  max-width: 250px;
+  height: 350px;
+  text-align: center;
+
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover {
+  box-shadow: 8px 9px 28px 8px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 8px 9px 28px 8px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 8px 9px 28px 8px rgba(0, 0, 0, 0.41);
+}
+
+.imgCard {
+  max-width: 250px;
+  /*  margin: 10px; */
+}
+
+.linkCard {
+  text-decoration: none;
+  color: black;
+}
+
+.linkCard:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.inscripciones {
+  text-align: center;
+  color: #1b4f72;
+  margin-top: 100px;
+  font-size: x-large;
+  margin: 20px;
+}
+
+/* form */
+#formularioInscripcion {
+  padding: 20px;
+  background-color: rgb(255, 245, 226);
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+.tituloForm {
+  color: orange;
+  text-align: center;
+  margin: 50px;
+}
+
+#fname #lname {
+  width: 50%;
+}
+
+#tentacles {
+  width: 30%
+}
+
+.dataInput {
+  background-color: rgb(255, 245, 226);
+  border: none;
+  border-bottom: 1px solid orange;
+}
+
+.botonInscribir {
+  background-color: white;
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 5px;
+  
+}
