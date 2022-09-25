@@ -143,5 +143,21 @@ nav {
   color: orange;
   border: 2px solid orange;
   border-radius: 5px;
-  
+}
+
+#botonForm{
+  background-color: white;
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 5px;
+}
+
+#fichaInscripcion {
+  padding: 20px;
+  background-color: rgb(255, 245, 226);
+  max-width: 900px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px;
+  text-align: center;
 }

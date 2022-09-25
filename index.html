@@ -83,30 +83,48 @@
 
   <!-- FORM -->
 
-  <div id="formularioInscripcion">
+
+
+
+<form  id="formReg">
+  <label for="nombreEstudiante">Nombre y Apellido de estudiante:</label> <br>
+ <input type="text" name="nombreEstudiante" id="nombreEstudiante"> <br>
+ <button id="inscribirme">Inscribirme</button>
+</form>
+
+<div id="fichaInscripcion">
+  <h2>Ficha de inscripcion</h2>
+  <h4 id="respuesta"></h4>
+</div>
+
+
+<!-- <h2 id="nombreRespuesta">aljlasjdflsajdf</h2> -->
+
+
+ <!--  <div id="formularioInscripcion">
     <h2 class="tituloForm">Formulario de inscripcion 2023</h2>
     <h4>Datos de estudiante</h4>
-    <form action="/action_page.php">
+    <form action="/action_page.php"> -->
       <!-- nombres -->
-      <label for="fname">Nombre:</label>
-      <input type="text" id="fname" name="fname" class="dataInput"><br>
+      <!-- <label for="fname">Nombre:</label>
+      <input type="text" id="nombreEstudiante" name="fname" class="dataInput"><br>
       <label for="lname">Apellido:</label>
-      <input type="text" id="lname" name="lname" class="dataInput"><br>
-      <label for="tentacles">Número de documento</label> <br>
-      <input type="number" id="tentacles" name="tentacles" min="1" max="10" class="dataInput"> <br>
-      <br>
+      <input type="text" id="lname" name="lname" class="dataInput"><br> -->
+      <!-- <label for="tentacles">Número de documento</label> <br>
+      <input type="number" id="tentacles" name="tentacles" min="1" max="10" class="dataInput"> <br> -->
+     <!--  <br>
       <h4>Datos de adulto responsable del estudiante</h4>
       <label for="fname">Nombre:</label>
       <input type="text" id="fname" name="fname" class="dataInput"><br>
       <label for="lname">Apellido:</label>
-      <input type="text" id="lname" name="lname" class="dataInput"><br>
-      <label for="tentacles">Número de documento</label> <br>
-      <input type="number" id="tentacles" name="tentacles" min="1" max="10" class="dataInput"> <br>
-      <br>
+      <input type="text" id="lname" name="lname" class="dataInput"><br> -->
+      <!-- <label for="tentacles">Número de documento</label> <br>
+      <input type="number" id="tentacles" name="tentacles" min="1" max="10" class="dataInput"> <br> -->
+     <!--  <br>
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" class="dataInput"><br><br>
+      <input type="email" id="email" name="email" class="dataInput"><br><br> -->
       <!-- horarios/dias -->
-      <h4>Oferta horaria que desea cursar</h4>
+      <!-- <h4>Oferta horaria que desea cursar</h4>
       <label for="cars">Eligue un día de la semana que quieras cursar:</label><br>
       <select id="cars" name="cars">
         <option value="volvo">Lunes</option>
@@ -121,30 +139,20 @@
       <label for="TT">Turno Tarde: 14 a 16hs</label><br>
       <input type="radio" id="TN" name="fav_language" value="TN">
       <label for="TN">Turno Noche: 18 a 20hs</label><br><br>
-      <input type="submit" value="INSCRIBIRME" class="botonInscribir">
-    </form>
+      <button id="botonForm">Inscribirme</button> -->
+      <!-- <input type="submit" value="INSCRIBIRME" class="botonInscribir">  -->
+  <!--   </form>
   </div>
-  <!-- 
-      <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
-      <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
 
-    <div class="mb-3">
-      <label for="formFileSm" class="form-label">Small file input example</label>
-      <input class="form-control form-control-sm" id="formFileSm" type="file">
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-      <label class="form-check-label" for="flexRadioDefault1">
-        Default radio
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-      <label class="form-check-label" for="flexRadioDefault2">
-        Default checked radio
-      </label>
-    </div>
+  <div class="fichaInscripcion">
+    <h2 class="datosInscripcion">Estos son tus datos de inscripcion</h2>
+    <h3 class="datosEstudiante">Datos del estudiante</h3>
+    <p class="rtaNomEst"></p>
+    <h3 class="datosAdulto">Datos de adulto/a responsable</h3>
+    <p class="nombreAdulto"></p>
   </div> -->
+
+
 
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
